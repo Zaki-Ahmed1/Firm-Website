@@ -1,0 +1,18 @@
+@use "theme";
+
+$hamburger-padding-x: 10px;
+$hamburger-padding-y: 10px;
+$hamburger-layer-width: 25px;
+$hamburger-layer-height: 3px;
+$hamburger-layer-spacing: 6px;
+$hamburger-layer-color: theme.$white;
+
+@import './hamburgers/hamburgers.scss';
+
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+  background-color: theme.$light-blue;
+}

@@ -1,0 +1,25 @@
+@use "theme";
+
+// navbar overrides
+$navbar-light-color: theme.$white;
+$navbar-light-hover-color: rgba(theme.$white, 0.7);
+$navbar-light-brand-color: theme.$white;
+$navbar-light-brand-hover-color: rgba(theme.$white, 0.7);
+$navbar-light-active-color: theme.$white;
+$navbar-brand-font-size: 1.5rem;
+
+// disable dropdown toggle
+$enable-caret: false;
+
+// custom theme map that merges with Bootstrap's default themes
+$theme-colors: (
+  'dark-blue': theme.$dark-blue,
+  'light-blue': theme.$light-blue,
+  'blue': theme.$blue,
+  'beige': theme.$beige,
+  'salmon': theme.$salmon,
+  'orange': theme.$orange,
+  'white': theme.$white,
+);
+
+@import './node_modules/bootstrap/scss/bootstrap';

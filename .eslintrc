@@ -3,8 +3,9 @@
   "env": {
     "browser": true
   },
-  "parser": "babel-eslint",
   "rules": {
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
