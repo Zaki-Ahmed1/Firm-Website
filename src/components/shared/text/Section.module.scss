@@ -1,0 +1,7 @@
+@use "../../../styles/theme";
+
+.titleText {
+  color: theme.$dark-blue;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

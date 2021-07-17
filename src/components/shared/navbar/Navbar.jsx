@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar as BSNavbar, NavDropdown as BSNavDropdown } from 'react-bootstrap';
 import NavDropdown from './NavDropdown';
 import Hamburger from './Hamburger';
@@ -19,7 +20,9 @@ export default function Navbar() {
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="Technology" id="technology">
-              <BSNavDropdown.Item>CNG Technology</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/understanding-cng">
+                CNG Technology
+              </BSNavDropdown.Item>
               <BSNavDropdown.Item>Solutions</BSNavDropdown.Item>
               <BSNavDropdown.Item>Benefits</BSNavDropdown.Item>
             </NavDropdown>

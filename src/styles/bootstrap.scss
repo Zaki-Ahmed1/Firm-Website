@@ -1,5 +1,7 @@
 @use "theme";
 
+$enable-responsive-font-sizes: true;
+
 // navbar overrides
 $navbar-light-color: theme.$white;
 $navbar-light-hover-color: rgba(theme.$white, 0.7);
@@ -19,6 +21,7 @@ $theme-colors: (
   'beige': theme.$beige,
   'salmon': theme.$salmon,
   'orange': theme.$orange,
+  'light-orange': theme.$light-orange,
   'white': theme.$white,
 );
 
