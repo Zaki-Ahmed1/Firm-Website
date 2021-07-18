@@ -5,7 +5,7 @@ import SectionText from '../../shared/text/SectionText';
 export default function Description() {
   return (
     <section>
-      <SectionTitle>The best cost-effective CNG technology on the market</SectionTitle>
+      <SectionTitle>The Benefits of Utilizing Marine CNG Transport Solutions</SectionTitle>
       <SectionText className="mt-3">
         EnerSea’s VOTRANS™ system is the world’s first cost-effective marine gas transport service
         since the introduction of liquefied natural gas (LNG). The VOTRANS™ (and VOLANDS™ for

@@ -24,7 +24,9 @@ export default function Navbar() {
                 CNG Technology
               </BSNavDropdown.Item>
               <BSNavDropdown.Item>Solutions</BSNavDropdown.Item>
-              <BSNavDropdown.Item>Benefits</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/technology-benefits">
+                Benefits
+              </BSNavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="News" id="news">
