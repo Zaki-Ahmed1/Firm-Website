@@ -8,7 +8,9 @@ export default function Navbar() {
   return (
     <BSNavbar className="p-4" bg="dark-blue" expand="lg">
       <Container>
-        <BSNavbar.Brand>Client Name</BSNavbar.Brand>
+        <BSNavbar.Brand as={Link} to="/">
+          Client Name
+        </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls="navbar-nav" className="border-white">
           <Hamburger />
         </BSNavbar.Toggle>
