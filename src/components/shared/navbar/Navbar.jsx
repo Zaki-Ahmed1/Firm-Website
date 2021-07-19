@@ -16,7 +16,9 @@ export default function Navbar() {
           <Nav className="justify-content-center w-100">
             <NavDropdown className="mr-5" title="Company" id="company">
               <BSNavDropdown.Item>Home</BSNavDropdown.Item>
-              <BSNavDropdown.Item>About us</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/about">
+                About
+              </BSNavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="Technology" id="technology">
