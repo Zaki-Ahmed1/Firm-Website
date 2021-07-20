@@ -8,14 +8,16 @@ export default function Navbar() {
   return (
     <BSNavbar className="p-4" bg="dark-blue" expand="lg">
       <Container>
-        <BSNavbar.Brand>Client Name</BSNavbar.Brand>
+        <BSNavbar.Brand>EnerSea</BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls="navbar-nav" className="border-white">
           <Hamburger />
         </BSNavbar.Toggle>
         <BSNavbar.Collapse id="navbar-nav">
           <Nav className="justify-content-center w-100">
             <NavDropdown className="mr-5" title="Company" id="company">
-              <BSNavDropdown.Item>Home</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/">
+                Home
+              </BSNavDropdown.Item>
               <BSNavDropdown.Item as={Link} to="/about">
                 About
               </BSNavDropdown.Item>
