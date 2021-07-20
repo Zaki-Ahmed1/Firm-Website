@@ -8,7 +8,9 @@ export default function Navbar() {
   return (
     <BSNavbar className="p-4" bg="dark-blue" expand="lg">
       <Container>
-        <BSNavbar.Brand>Client Name</BSNavbar.Brand>
+        <BSNavbar.Brand as={Link} to="/">
+          Client Name
+        </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls="navbar-nav" className="border-white">
           <Hamburger />
         </BSNavbar.Toggle>
@@ -23,7 +25,9 @@ export default function Navbar() {
               <BSNavDropdown.Item as={Link} to="/understanding-cng">
                 CNG Technology
               </BSNavDropdown.Item>
-              <BSNavDropdown.Item>Solutions</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/technology-solutions">
+                Solutions
+              </BSNavDropdown.Item>
               <BSNavDropdown.Item as={Link} to="/technology-benefits">
                 Benefits
               </BSNavDropdown.Item>
