@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/understanding-cng" exact>
           <CngTechnology />
         </Route>
-        <Route path="/solutions" exact>
+        <Route path="/technology-solutions" exact>
           <Solutions />
         </Route>
         <Route path="/technology-benefits" exact>
