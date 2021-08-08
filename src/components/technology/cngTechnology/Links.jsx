@@ -7,19 +7,25 @@ export default function Links({ ...props }) {
     <section {...props}>
       <SectionTitle>Cost Effective Technology</SectionTitle>
       <hr />
-      <ColoredLink>Meeting Your Customized Natural Gas Supply and Delivery Needs</ColoredLink>
+      <ColoredLink to="/cng-technology-1">
+        Meeting Your Customized Natural Gas Supply and Delivery Needs
+      </ColoredLink>
       <hr />
-      <ColoredLink>Gas Containment System</ColoredLink>
+      <ColoredLink to="/cng-technology-2">Gas Containment System</ColoredLink>
       <hr />
-      <ColoredLink>CNG Technology Alternatives</ColoredLink>
+      <ColoredLink to="/cng-technology-3">CNG Technology Alternatives</ColoredLink>
       <hr />
-      <ColoredLink>Gas Handling System</ColoredLink>
+      <ColoredLink to="/cng-technology-4">Gas Handling System</ColoredLink>
       <hr />
-      <ColoredLink>CNG Technology - Patented, Tested, and Approved</ColoredLink>
+      <ColoredLink to="/cng-technology-5">
+        CNG Technology - Patented, Tested, and Approved
+      </ColoredLink>
       <hr />
-      <ColoredLink>CNG Technology - Combining Reliability and Effeciency</ColoredLink>
+      <ColoredLink to="/cng-technology-6">
+        CNG Technology - Combining Reliability and Effeciency
+      </ColoredLink>
       <hr />
-      <ColoredLink>CNG Technology - Safety First</ColoredLink>
+      <ColoredLink to="/cng-technology-7">CNG Technology - Safety First</ColoredLink>
       <hr />
     </section>
   );

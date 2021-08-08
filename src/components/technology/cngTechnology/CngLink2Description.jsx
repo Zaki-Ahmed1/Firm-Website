@@ -2,7 +2,7 @@ import React from 'react';
 import SectionTitle from '../../shared/text/SectionTitle';
 import SectionText from '../../shared/text/SectionText';
 
-export default function CngLink3Description() {
+export default function CngLink2Description() {
   return (
     <section>
       <SectionTitle>Gas Containment System</SectionTitle>
