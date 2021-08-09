@@ -1,15 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Nav, Navbar as BSNavbar, NavDropdown as BSNavDropdown } from 'react-bootstrap';
+import {
+  Container,
+  Nav,
+  Navbar as BSNavbar,
+  NavDropdown as BSNavDropdown,
+  Image,
+} from 'react-bootstrap';
 import NavDropdown from './NavDropdown';
 import Hamburger from './Hamburger';
+import styles from './NavBar.module.scss';
 
 export default function Navbar() {
   return (
     <BSNavbar className="p-4" bg="dark-blue" expand="lg">
       <Container>
         <BSNavbar.Brand as={Link} to="/">
-          Client Name
+          <Image src="/logo.png" className={styles.logo} />
         </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls="navbar-nav" className="border-white">
           <Hamburger />
@@ -38,12 +45,10 @@ export default function Navbar() {
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="News" id="news">
-              <BSNavDropdown.Item>News</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/news">
+                News
+              </BSNavDropdown.Item>
               <BSNavDropdown.Item>Partners</BSNavDropdown.Item>
-            </NavDropdown>
-
-            <NavDropdown className="mr-5" title="Investors" id="investors">
-              <BSNavDropdown.Item>Business Models</BSNavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="Contact" id="contact">
