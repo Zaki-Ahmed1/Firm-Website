@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import Navbar from '../shared/navbar/Navbar';
 import HeroImageNews from '../shared/heroImage/HeroImageNews';
-import MapNews from './MapNews';
 import NewsLinks from './NewsLinks';
 import NewsDescription from './NewsDescription';
 
@@ -20,7 +19,6 @@ export default function News() {
           </Col>
           <Col sm={12} md={4} className="mt-5 mt-md-0">
             <NewsLinks />
-            <MapNews className="mt-5" />
           </Col>
         </Row>
       </Container>
