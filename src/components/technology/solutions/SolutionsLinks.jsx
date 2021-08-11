@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import SectionTitle from '../../shared/text/SectionTitle';
 import ColoredLink from '../../shared/text/ColoredLink';
 
@@ -8,25 +7,17 @@ export default function SolutionsLinks({ ...props }) {
     <section {...props}>
       <SectionTitle>Applications of CNG Solutions</SectionTitle>
       <hr />
-      <ColoredLink as={Link} to="./SolutionsLink1">
-        Developing Stranded Gas Reserves
-      </ColoredLink>
+      <ColoredLink to="/solutions-1">Developing Stranded Gas Reserves</ColoredLink>
       <hr />
-      <ColoredLink as={Link} to="./SolutionsLink2">
-        Liquid Fuel Replacement
-      </ColoredLink>
+      <ColoredLink to="/solutions-2">Liquid Fuel Replacement</ColoredLink>
       <hr />
-      <ColoredLink as={Link} to="./SolutionsLink3">
-        Associated Gas
-      </ColoredLink>
+      <ColoredLink to="/solutions-3">Associated Gas</ColoredLink>
       <hr />
-      <ColoredLink as={Link} to="./SolutionsLink4">
+      <ColoredLink to="/solutions-4">
         Extended Well Testing and Early Production Systems
       </ColoredLink>
       <hr />
-      <ColoredLink as={Link} to="./SolutionsLink5">
-        Natural Gas Storage Solutions - VOLANDSTM
-      </ColoredLink>
+      <ColoredLink to="/solutions-5">Natural Gas Storage Solutions - VOLANDSTM</ColoredLink>
       <hr />
     </section>
   );

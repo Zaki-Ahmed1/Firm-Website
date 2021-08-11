@@ -36,10 +36,10 @@ export default function Navbar() {
               <BSNavDropdown.Item as={Link} to="/understanding-cng">
                 CNG Technology
               </BSNavDropdown.Item>
-              <BSNavDropdown.Item as={Link} to="/technology-benefits">
+              <BSNavDropdown.Item as={Link} to="/solutions">
                 Solutions
               </BSNavDropdown.Item>
-              <BSNavDropdown.Item as={Link} to="/technology-solutions">
+              <BSNavDropdown.Item as={Link} to="/benefits">
                 Benefits
               </BSNavDropdown.Item>
             </NavDropdown>
