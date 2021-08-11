@@ -13,6 +13,12 @@ import CngTechnology from './components/technology/cngTechnology/CngTechnology';
 import Benefits from './components/technology/cngTechnology/Benefits';
 import News from './components/news/News';
 import Solutions from './components/technology/cngTechnology/Solutions';
+import SolutionsLink1 from './components/technology/solutions/SolutionsLink1';
+import SolutionsLink2 from './components/technology/solutions/SolutionsLink2';
+import SolutionsLink3 from './components/technology/solutions/SolutionsLink3';
+import SolutionsLink4 from './components/technology/solutions/SolutionsLink4';
+import SolutionsLink5 from './components/technology/solutions/SolutionsLink5';
+import Contact from './components/contact/Contact';
 import './styles/bootstrap.scss';
 import './styles/globals.scss';
 
@@ -32,7 +38,13 @@ export default function App() {
         <Route path="/cng-technology-7" exact component={CngLink7} />
         <Route path="/technology-solutions" exact component={Benefits} />
         <Route path="/technology-benefits" exact component={Solutions} />
+        <Route path="/technology-benefits" exact component={SolutionsLink1} />
+        <Route path="/technology-benefits" exact component={SolutionsLink2} />
+        <Route path="/technology-benefits" exact component={SolutionsLink3} />
+        <Route path="/technology-benefits" exact component={SolutionsLink4} />
+        <Route path="/technology-benefits" exact component={SolutionsLink5} />
         <Route path="/news" exact component={News} />
+        <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
   );
