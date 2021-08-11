@@ -20,7 +20,9 @@ export default function DescriptionBenefits() {
         International Association for Natural Gas Vehicles (IANGV) is projecting that 50 million CNG
         vehicles will be on the roads by 2020.
       </SectionText>
-      <SectionTitle>Marine Transport of CNG – Proven Technology</SectionTitle>
+      <SectionTitle id="proven-technology">
+        Marine Transport of CNG – Proven Technology
+      </SectionTitle>
       <SectionText>
         Given this background, it was logical that technology would be advanced for transporting
         large volumes of natural gas as CNG on the seas, just as liquid petroleum and petrochemicals
@@ -33,7 +35,7 @@ export default function DescriptionBenefits() {
         natural gas components, such as propane, butane and various LPG mixes, are commonly shipped
         today in pressurized and chilled storage systems aboard barges and tanker ships.
       </SectionText>
-      <SectionTitle>EnerSea Marine CNG</SectionTitle>
+      <SectionTitle id="enersea-marine">EnerSea Marine CNG</SectionTitle>
       <SectionText>
         EnerSea began its quest to develop a modern CNG marine transport system in 2001 with the
         development of its VOTRANS (Volume Optimized Transport and Storage system) technology and
@@ -47,7 +49,9 @@ export default function DescriptionBenefits() {
         construction” and that “ABS will approve EnerSea ships and barges built with VOTRANS CNG
         systems.”
       </SectionText>
-      <SectionTitle>Application of EnerSea CNG Marine Transport Systems</SectionTitle>
+      <SectionTitle id="application">
+        Application of EnerSea CNG Marine Transport Systems
+      </SectionTitle>
       <SectionText>
         CNG marine transport can provide ideal solutions for a wide variety of regional
         applications, including:
@@ -71,7 +75,7 @@ export default function DescriptionBenefits() {
           </li>
         </ul>
       </SectionText>
-      <SectionTitle>Comparison of CNG with LNG Supply Chain</SectionTitle>
+      <SectionTitle id="comparison">Comparison of CNG with LNG Supply Chain</SectionTitle>
       <SectionText>
         CNG is often compared with LNG, as both are large volume, marine-based gas transport
         solutions. However, these two technologies typically target different sectors of both supply
@@ -100,7 +104,7 @@ export default function DescriptionBenefits() {
           </li>
         </ul>
       </SectionText>
-      <SectionTitle>Marine CNG – A Unique Project Management Tool</SectionTitle>
+      <SectionTitle id="unique">Marine CNG – A Unique Project Management Tool</SectionTitle>
       <SectionText>
         In addition to providing a cost-effective regional gas development solution in itself, CNG
         marine transport projects also offer several unique and valuable features for flexibility
@@ -129,7 +133,7 @@ export default function DescriptionBenefits() {
           </li>
         </ul>
       </SectionText>
-      <SectionTitle>Safety and Environmental Benefits</SectionTitle>
+      <SectionTitle id="safety">Safety and Environmental Benefits</SectionTitle>
       <SectionText>
         <ul>
           <li>

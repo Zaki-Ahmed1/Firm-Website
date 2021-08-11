@@ -5,7 +5,7 @@ import SectionText from '../../shared/text/SectionText';
 export default function SolutionsLink3Description() {
   return (
     <section>
-      <SectionTitle>Liquid Fuel Replacement</SectionTitle>
+      <SectionTitle>Associated Gas</SectionTitle>
       <SectionText className="mt-3">
         In many of the world’s petroleum provinces, the natural gas produced along with the crude
         oil (“associated gas”) has relatively little value, especially compared to the oil. In fact,

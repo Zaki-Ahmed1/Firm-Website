@@ -10,14 +10,17 @@ import CngLink5 from './components/technology/cngTechnology/CngLink5';
 import CngLink6 from './components/technology/cngTechnology/CngLink6';
 import CngLink7 from './components/technology/cngTechnology/CngLink7';
 import CngTechnology from './components/technology/cngTechnology/CngTechnology';
-import Benefits from './components/technology/cngTechnology/Benefits';
+import Benefits from './components/technology/benefits/Benefits';
 import News from './components/news/News';
-import Solutions from './components/technology/cngTechnology/Solutions';
+import Solutions from './components/technology/solutions/Solutions';
 import SolutionsLink1 from './components/technology/solutions/SolutionsLink1';
 import SolutionsLink2 from './components/technology/solutions/SolutionsLink2';
 import SolutionsLink3 from './components/technology/solutions/SolutionsLink3';
 import SolutionsLink4 from './components/technology/solutions/SolutionsLink4';
 import SolutionsLink5 from './components/technology/solutions/SolutionsLink5';
+import Contact from './components/contact/Contact';
+import Privacy from './components/contact/Privacy';
+import Terms from './components/contact/Terms';
 import './styles/bootstrap.scss';
 import './styles/globals.scss';
 
@@ -48,6 +51,10 @@ export default function App() {
         <Route path="/solutions-5" exact component={SolutionsLink5} />
 
         <Route path="/news" exact component={News} />
+
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/privacy" exact component={Privacy} />
+        <Route path="/terms" exact component={Terms} />
       </Switch>
     </Router>
   );

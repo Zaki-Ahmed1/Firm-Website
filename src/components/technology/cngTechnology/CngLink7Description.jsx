@@ -6,7 +6,7 @@ import HeroImage from '../../shared/heroImage/HeroImage';
 export default function CngLink7Description() {
   return (
     <section>
-      <SectionTitle>Combining Reliability and Efficiency</SectionTitle>
+      <SectionTitle>Safety First</SectionTitle>
       <SectionText className="mt-3">
         <SectionText>
           EnerSea’s first and foremost priority will always be to take a proactive approach to

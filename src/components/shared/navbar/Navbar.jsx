@@ -48,13 +48,18 @@ export default function Navbar() {
               <BSNavDropdown.Item as={Link} to="/news">
                 News
               </BSNavDropdown.Item>
-              <BSNavDropdown.Item>Partners</BSNavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown className="mr-5" title="Contact" id="contact">
-              <BSNavDropdown.Item>Contact us</BSNavDropdown.Item>
-              <BSNavDropdown.Item>Privacy policy</BSNavDropdown.Item>
-              <BSNavDropdown.Item>Terms and conditions</BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/contact">
+                Contact us
+              </BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/privacy">
+                Privacy policy
+              </BSNavDropdown.Item>
+              <BSNavDropdown.Item as={Link} to="/terms">
+                Terms and conditions
+              </BSNavDropdown.Item>
             </NavDropdown>
           </Nav>
         </BSNavbar.Collapse>
